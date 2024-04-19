@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F9F9F9;
+    width: 100vw;
+}
+
+
+header {
+    height: 56px;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+}
+
+
+/* NAVBAR */
+.menu {
+
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/* Menu esquerdo */
+.menu .menu-esquerdo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Caixa Pesquisa Meio */
+.menu .caixaPesquisaMeio {
+    position: relative;
+}
+.menu .caixaPesquisaMeio #caixaPesquisa {
+    height: 40px;
+    width: 348px;
+    
+    border-radius: 20px;
+    outline: none;
+}
+.menu .caixaPesquisaMeio #buttonBotaoPesquisar {
+    position: relative;
+    top: 5.5px;
+    right: 57px;
+    height: 40px;
+    width: 57px;
+
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+}
+
+/* Ferramentas da Direita NAVBAR */
+.menu .ferramentasPerfilDireito {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Ferramenta Record */
+.menu .ferramentasPerfilDireito #record-icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* Ferramenta Notificacao */
+.menu .ferramentasPerfilDireito #bell-icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* Imagem Perfil da Conta */
+.menu .ferramentasPerfilDireito #foto-de-perfil {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+
+}
+
+
+
+
+/* Main da Pagina */
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Em volta do video | botoes e imagem  */
+.principal {
+    width: 65%;
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+/* //Video */
+.principal #iframe-video {
+    width: 1200px;
+    height: 550px;
+
+    border-radius: 10px;
+}
+
+/* //Titulo do video */
+.principal .title-video {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: start;
+}
+
+
+/* Area de Botoes | Nome do Canal e imagem */
+.principal .areaDeBotoes {
+    width: 100%;
+    margin-top: 10px;
+    padding: 4px;
+
+    display: flex;
+    align-items: center;
+}
+.principal .areaDeBotoes .nameAndPhotoChannel {
+    width: 14%;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.principal .areaDeBotoes #img-canal {
+    width: 42px;
+}
+.principal .areaDeBotoes label {
+    font-size: 16px;
+    font-weight: bold;
+}
+.principal .areaDeBotoes label span {
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+    cursor: pointer;
+}
+
+/* Botao Subscribe */
+.areaDeBotoes .subscribe {
+    margin-left: 14px;
+    width: 160px;
+    height: 42px;
+}
+.areaDeBotoes .subscribe .botaoSubscribe {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #CC0000;
+}
+
+/* Icons */
+.areaDeBotoes .iconsBotoes {
+
+
+    width: 800px;
+    height: 100%;
+
+    margin-left: 42px;
+    
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.areaDeBotoes .iconsBotoes .botaos {
+
+    display: flex;
+    align-items: center;
+}
+.areaDeBotoes .iconsBotoes .botaos .name {
+    color: #515151;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+
+
+/* Descricao do video */
+.descricao {
+    width: 600px;
+    margin-top: 20px;
+}
+.descricao h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.descricao .textos {
+    margin-top: 15px;
+    color: #515151;
+}
+
+
+/* Lateral direito */
+aside {
+    width: 25%;
+    margin-top: 94px;
+    margin-left: -150px;
+
+    display: flex;
+}
+
+.lateral-direito {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sections {
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+}
+.sections .texto-lateral-descricao {
+    width: 60%;
+    margin-left: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    line-height: 17px;
+}
+
+.sections h4 {
+    width: 274px;
+
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.sections > img {
+    width: 180px;
+    height: 100px;
+}
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Youtube - Clone</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="menu-esquerdo">
+                <img src="./assets/images/menu.png" alt="Botao de menu Youtube" id="botaoMenuYoutube" width="24px">
+                <img src="./assets/images/youtube 1.png" alt="Logo Youtube" id="logoYoutube">
+            </div>
+
+            <div class="caixaPesquisaMeio">
+                <input type="text" id="caixaPesquisa" style="border: 1px solid #CCCCCC;"><button id="buttonBotaoPesquisar"><img src="./assets/images/search.png" alt="Botao para pesquisar" id="botaoPesquisar"></button>
+            </div>
+
+            <div class="ferramentasPerfilDireito">
+                <img src="./assets/images/video.png" alt="Ferramenta para publicar Video" width="24px" id="record-icon">
+                <img src="./assets/images/bell.png" alt="Sino de notificacoes Youtube" width="24px" id="bell-icon">
+                <img src="./assets/images/Perfil Atualizado.jpg" alt="Foto de Perfil da sua Conta " id="foto-de-perfil">
+            </div> 
+        </nav>
+    </header>
+
+    
+    <!-- Video, descricao etc -->
+    <div class="container"> 
+        <main class="principal">
+            <iframe id="iframe-video" src="https://www.youtube.com/embed/mDl5FPfIVyQ?si=h003ai3P9XWye2Z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4 class="title-video">Advancing Moon Mobility for Artemis Astronauts on This Week @NASA – April 5, 2024</h4>
+            
+            <div class="areaDeBotoes"> <!-- Area de Botoes -->
+                <div class="nameAndPhotoChannel">
+                    <img id="img-canal" src="./assets/images/channels4_profile.jpg" alt="Imagem da Nasa">
+                    <label>NASA <br> <span>12 mil inscritos</span></label>
+                </div>
+
+                <div class="subscribe">
+                    <button class="botaoSubscribe">Subscribe</button>
+                </div>
+
+                <div class="iconsBotoes">
+                    <div class="botaos">
+                        <img src="./assets/images/Vector.png" alt=""> <label class="name">10 mil</label>
+                    </div>
+
+                    <div class="botaos">
+                        <img src="./assets/images/Vector (1).png" alt=""> <label class="name">Nao gostei</label>
+                    </div>
+
+                    <div class="botaos">
+                        <img src="./assets/images/share-2.png" alt=""> <label class="name">Compartilhar</label>
+                    </div>
+
+                    <div class="botaos">
+                        <img src="./assets/images/download.png" alt=""> <label class="name">Download</label>
+                    </div>
+                </div>
+            </div> <!-- Fim Area de Botoes -->
+
+
+
+            <!-- Descricao do Video -->
+            <div class="descricao">
+                <h4>28.418 visualizacoes  Transmitido ao vivo em 23 ago. de 2023</h4>
+                <p class="textos">Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+            </div>
+        </main>
+
+
+
+        <!-- Videos a seguir -->
+        <aside>
+            <div class="lateral-direito">
+                <section  class="sections" id="section1">
+                    <img src="./assets/images/Section1.png" alt="">
+                    <div class="texto-lateral-descricao">
+                        <h4>Geracao Tech Unimed - BH - Ciencia de Dados</h4> 
+                        <p class="descricao-videos"> Anthony Channel <br> 2,1 mil visualizacoes <br>Transmitido ha 2 dias</p>
+                    </div>
+                </section>
+
+                <section  class="sections" id="section2">
+                    <img src="./assets/images/Section1.png" alt="">
+                    <div class="texto-lateral-descricao">
+                        <h4>Geracao Tech Unimed - BH - Ciencia de Dados</h4> 
+                        <p class="descricao-videos"> Anthony Channel <br> 2,1 mil visualizacoes <br>Transmitido ha 2 dias</p>
+                    </div>
+                </section>
+
+                <section  class="sections" id="section3">
+                    <img src="./assets/images/Section1.png" alt="">
+                    <div class="texto-lateral-descricao">
+                        <h4>Geracao Tech Unimed - BH - Ciencia de Dados</h4> 
+                        <p class="descricao-videos"> Anthony Channel <br> 2,1 mil visualizacoes <br>Transmitido ha 2 dias</p>
+                    </div>
+                </section>
+
+                <section  class="sections" id="section4">
+                    <img src="./assets/images/Section1.png" alt="">
+                    <div class="texto-lateral-descricao">
+                        <h4>Geracao Tech Unimed - BH - Ciencia de Dados</h4> 
+                        <p class="descricao-videos"> Anthony Channel <br> 2,1 mil visualizacoes <br>Transmitido ha 2 dias</p>
+                    </div>
+                </section>
+
+                <section  class="sections" id="section5">
+                    <img src="./assets/images/Section1.png" alt="">
+                    <div class="texto-lateral-descricao">
+                        <h4>Geracao Tech Unimed - BH - Ciencia de Dados</h4> 
+                        <p class="descricao-videos"> Anthony Channel <br> 2,1 mil visualizacoes <br>Transmitido ha 2 dias</p>
+                    </div>
+                </section>
+
+                <section  class="sections" id="section6">
+                    <img src="./assets/images/Section1.png" alt="">
+                    <div class="texto-lateral-descricao">
+                        <h4>Geracao Tech Unimed - BH - Ciencia de Dados</h4> 
+                        <p class="descricao-videos"> Anthony Channel <br> 2,1 mil visualizacoes <br>Transmitido ha 2 dias</p>
+                    </div>
+                </section>
+
+                <section  class="sections" id="section7">
+                    <img src="./assets/images/Section1.png" alt="">
+                    <div class="texto-lateral-descricao">
+                        <h4>Geracao Tech Unimed - BH - Ciencia de Dados</h4> 
+                        <p class="descricao-videos"> Anthony Channel <br> 2,1 mil visualizacoes <br>Transmitido ha 2 dias</p>
+                    </div>
+                </section>
+
+                <section  class="sections" id="section8">
+                    <img src="./assets/images/Section1.png" alt="">
+                    <div class="texto-lateral-descricao">
+                        <h4>Geracao Tech Unimed - BH - Ciencia de Dados</h4> 
+                        <p class="descricao-videos"> Anthony Channel <br> 2,1 mil visualizacoes <br>Transmitido ha 2 dias</p>
+                    </div>
+                </section>
+
+                <section  class="sections" id="section9">
+                    <img src="./assets/images/Section1.png" alt="">
+                    <div class="texto-lateral-descricao">
+                        <h4>Geracao Tech Unimed - BH - Ciencia de Dados</h4> 
+                        <p class="descricao-videos"> Anthony Channel <br> 2,1 mil visualizacoes <br>Transmitido ha 2 dias</p>
+                    </div>
+                </section>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
